@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+  /* apply to  every element */
+}
+
+body{
+    background-color: aquamarine;
+   
+    box-sizing: border-box;
+    /* border box doesnt ihnerit */
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+div{
+    border: 5px solid black;
+    padding: 15px;
+    margin: 15px;
+    background-color: lightgray;
+    position:relative;
+    top: 15px;
+    /* box-sizing:border-box; */
+
+}
+span{
+    border: 2px solid black;
+    float:right ;
+    /* box-sizing:border-box; */
+    /* clear: both; */
+    padding: 0px;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    width: 65px;
+    /* height: 50px; */
+    
+    
+}
+.c1{
+
+}
+#s1{
+    background-color: tomato;
+}
+#s2{
+    background-color: red;
+}#s3{
+    background-color: yellow;
+}
